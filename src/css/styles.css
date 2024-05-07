@@ -1,0 +1,48 @@
+@import url('./reset.css');
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./about-us.css');
+@import url('./catalog.css');
+@import url('./advertisement.css');
+@import url('./sale.css');
+@import url('./reviews.css');
+@import url('./contact-us.css');
+@import url('./footer.css');
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./fonts/Gilroy/Gilroy-Medium.ttf') format('truetype'),
+    url('./fonts/Gilroy/Gilroy-Medium.woff2') format('woff2'),
+    url('./fonts/Gilroy/Gilroy-Medium.woff') format('woff');
+  font-weight: 500; /* Змінено на 500 для шрифту "Medium" */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./fonts/Gilroy/Gilroy-Regular.woff2') format('woff2'),
+    url('./fonts/Gilroy/Gilroy-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./fonts/Gilroy/Gilroy-Semibold.woff2') format('woff2'),
+    url('./fonts/Gilroy/Gilroy-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./fonts/Gilroy/Gilroy-Bold.woff2') format('woff2'),
+    url('./fonts/Gilroy/Gilroy-Bold.woff') format('woff');
+  font-weight: bold;
+}
+
+.content {
+  font-family: 'Gilroy', sans-serif;
+  color: #0c0c0c;
+  font-weight: 400;
+}
